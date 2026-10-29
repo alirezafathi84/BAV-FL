@@ -1,0 +1,9 @@
+eps=1.0 fedavg  auc=0.8771±0.0113 siteAUC=0.7890±0.0332  t=1s
+eps=1.0 fixed   auc=0.8394±0.0230 siteAUC=0.7459±0.0380  t=2s
+eps=1.0 decay   auc=0.8434±0.0241 siteAUC=0.7479±0.0314  t=4s
+eps=1.0 bona    auc=0.8039±0.0345 siteAUC=0.7182±0.0328  t=31s
+eps=3.0 fixed   auc=0.8706±0.0171 siteAUC=0.7750±0.0359  t=32s
+eps=3.0 decay   auc=0.8719±0.0167 siteAUC=0.7755±0.0324  t=34s
+eps=3.0 bona    auc=0.8323±0.0371 siteAUC=0.7565±0.0360  t=54s
+eps=1.0 paired diff siteAUC bona-fixed -0.0278 (wins 0.20)  bona-decay -0.0297
+eps=3.0 paired diff siteAUC bona-fixed -0.0184 (wins 0.40)  bona-decay -0.0190

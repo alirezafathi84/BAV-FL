@@ -1,0 +1,27 @@
+eps=1.0 fedavg  auc=0.8771±0.0113 siteAUC=0.7890±0.0332  t=1s
+eps=1.0 fixed   auc=0.8394±0.0230 siteAUC=0.7459±0.0380  t=2s
+eps=1.0 wd.01   auc=0.8363±0.0242 siteAUC=0.7381±0.0417  t=3s
+eps=1.0 wd.03   auc=0.8246±0.0276 siteAUC=0.7266±0.0470  t=4s
+eps=1.0 wd.1    auc=0.8062±0.0299 siteAUC=0.7150±0.0527  t=6s
+eps=1.0 tail.5  auc=0.8436±0.0228 siteAUC=0.7432±0.0357  t=7s
+eps=1.0 wd.03+tail auc=0.8449±0.0235 siteAUC=0.7377±0.0330  t=8s
+eps=1.0 fedavg_wd.03 auc=0.8648±0.0140 siteAUC=0.7834±0.0249  t=9s
+eps=3.0 fixed   auc=0.8706±0.0171 siteAUC=0.7750±0.0359  t=10s
+eps=3.0 wd.01   auc=0.8638±0.0209 siteAUC=0.7633±0.0306  t=11s
+eps=3.0 wd.03   auc=0.8520±0.0223 siteAUC=0.7570±0.0305  t=12s
+eps=3.0 wd.1    auc=0.8358±0.0242 siteAUC=0.7463±0.0310  t=13s
+eps=3.0 tail.5  auc=0.8687±0.0156 siteAUC=0.7773±0.0311  t=15s
+eps=3.0 wd.03+tail auc=0.8553±0.0196 siteAUC=0.7614±0.0271  t=16s
+eps=3.0 fedavg_wd.03 auc=0.8648±0.0140 siteAUC=0.7834±0.0249  t=17s
+eps=1.0 wd.01 - fixed: -0.0079 wins 0.30
+eps=1.0 wd.03 - fixed: -0.0194 wins 0.30
+eps=1.0 wd.1 - fixed: -0.0309 wins 0.30
+eps=1.0 tail.5 - fixed: -0.0027 wins 0.40
+eps=1.0 wd.03+tail - fixed: -0.0083 wins 0.30
+eps=1.0 fedavg_wd.03 - fixed: +0.0374 wins 0.80
+eps=3.0 wd.01 - fixed: -0.0117 wins 0.10
+eps=3.0 wd.03 - fixed: -0.0179 wins 0.20
+eps=3.0 wd.1 - fixed: -0.0287 wins 0.20
+eps=3.0 tail.5 - fixed: +0.0023 wins 0.40
+eps=3.0 wd.03+tail - fixed: -0.0135 wins 0.30
+eps=3.0 fedavg_wd.03 - fixed: +0.0084 wins 0.50

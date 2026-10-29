@@ -1,0 +1,19 @@
+eps=1.0 fedavg  auc=0.8771±0.0113 siteAUC=0.7890±0.0332  t=1s
+eps=1.0 fixed   auc=0.8394±0.0230 siteAUC=0.7459±0.0380  t=2s
+eps=1.0 stein   auc=0.8250±0.0186 siteAUC=0.7386±0.0359  t=3s
+eps=1.0 ema     auc=0.8445±0.0229 siteAUC=0.7450±0.0368  t=4s
+eps=1.0 stein+ema auc=0.8246±0.0199 siteAUC=0.7374±0.0349  t=5s
+eps=1.0 decay+stein+ema auc=0.8213±0.0200 siteAUC=0.7328±0.0367  t=7s
+eps=3.0 fixed   auc=0.8706±0.0171 siteAUC=0.7750±0.0359  t=9s
+eps=3.0 stein   auc=0.8499±0.0191 siteAUC=0.7640±0.0239  t=10s
+eps=3.0 ema     auc=0.8707±0.0162 siteAUC=0.7769±0.0329  t=11s
+eps=3.0 stein+ema auc=0.8486±0.0189 siteAUC=0.7628±0.0257  t=13s
+eps=3.0 decay+stein+ema auc=0.8482±0.0188 siteAUC=0.7615±0.0244  t=14s
+eps=1.0 stein - fixed: -0.0073 wins 0.40
+eps=1.0 ema - fixed: -0.0009 wins 0.40
+eps=1.0 stein+ema - fixed: -0.0085 wins 0.50
+eps=1.0 decay+stein+ema - fixed: -0.0132 wins 0.50
+eps=3.0 stein - fixed: -0.0110 wins 0.40
+eps=3.0 ema - fixed: +0.0019 wins 0.50
+eps=3.0 stein+ema - fixed: -0.0121 wins 0.40
+eps=3.0 decay+stein+ema - fixed: -0.0135 wins 0.40
